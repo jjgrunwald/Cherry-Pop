@@ -10,6 +10,12 @@ import UIKit
 
 var cherryAmount = 1;
 
+var cherryArray =
+[UIImage(imageLiteralResourceName: "oneCherry"),
+ UIImage(imageLiteralResourceName: "twoCherry"),
+ UIImage(imageLiteralResourceName: "threeCherry")]
+
+
 var timer: Timer?
 
 class ViewController: UIViewController {
@@ -18,16 +24,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var cherryImageView: UIImageView!
     
     // Start a timer to increment cherryAmount until it reaches 3
-    func startTimer() { Timer.scheduledTimer(timeInterval: 1.0, target: ViewController.self, selector: #selector(incrementCherry), userInfo: nil, repeats: true)
+    func startTimer() { Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(incrementCherry), userInfo: nil, repeats: true)
     }
     
     @objc func incrementCherry() {
         print("Timer is working.")
-        
-        cherryImageView.image =
-        [UIImage(imageLiteralResourceName: "oneCherry"),
-         UIImage(imageLiteralResourceName: "twoCherry"),
-         UIImage(imageLiteralResourceName: "threeCherry")][cherryAmount]
         
         if cherryAmount == 0
         { cherryAmount += 1;
@@ -41,24 +42,25 @@ class ViewController: UIViewController {
         { cherryAmount += 1;
         }
         
-      
+        cherryImageView.image =
+        cherryArray[cherryAmount]
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        startTimer();
     }
-    
-    
     
     
     @IBAction func pressPopButton(_ sender: UIButton) {
         
         cherryImageView.image =
-        [UIImage(imageLiteralResourceName: "oneCherry"),
-         UIImage(imageLiteralResourceName: "twoCherry"),
-         UIImage(imageLiteralResourceName: "threeCherry")][cherryAmount]
+        cherryArray[cherryAmount]
         
-        cherryAmount = cherryAmount - 1;
-        
+        if (cherryAmount >= 1){
+            cherryAmount = cherryAmount - 1;
+        }
     }
 }
     

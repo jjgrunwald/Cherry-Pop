@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82BCCDBF2ACA742700217CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCCDBE2ACA742700217CB2 /* AppDelegate.swift */; };
+		82BCCDC12ACA742700217CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCCDC02ACA742700217CB2 /* SceneDelegate.swift */; };
+		82BCCDC32ACA742700217CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCCDC22ACA742700217CB2 /* ViewController.swift */; };
+		82BCCDC62ACA742700217CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BCCDC42ACA742700217CB2 /* Main.storyboard */; };
+		82BCCDC82ACA742800217CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BCCDC72ACA742800217CB2 /* Assets.xcassets */; };
+		82BCCDCB2ACA742800217CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BCCDC92ACA742800217CB2 /* LaunchScreen.storyboard */; };
+		82BCCDD62ACA742900217CB2 /* Cherry_PopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCCDD52ACA742900217CB2 /* Cherry_PopTests.swift */; };
+		82BCCDE02ACA742900217CB2 /* Cherry_PopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCCDDF2ACA742900217CB2 /* Cherry_PopUITests.swift */; };
+		82BCCDE22ACA742900217CB2 /* Cherry_PopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BCCDE12ACA742900217CB2 /* Cherry_PopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82BCCDD22ACA742900217CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BCCDB32ACA742700217CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BCCDBA2ACA742700217CB2;
+			remoteInfo = "Cherry Pop";
+		};
+		82BCCDDC2ACA742900217CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BCCDB32ACA742700217CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BCCDBA2ACA742700217CB2;
+			remoteInfo = "Cherry Pop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82BCCDBB2ACA742700217CB2 /* Cherry Pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cherry Pop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BCCDBE2ACA742700217CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82BCCDC02ACA742700217CB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82BCCDC22ACA742700217CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82BCCDC52ACA742700217CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82BCCDC72ACA742800217CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BCCDCA2ACA742800217CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82BCCDCC2ACA742800217CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BCCDD12ACA742900217CB2 /* Cherry PopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cherry PopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BCCDD52ACA742900217CB2 /* Cherry_PopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cherry_PopTests.swift; sourceTree = "<group>"; };
+		82BCCDDB2ACA742900217CB2 /* Cherry PopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cherry PopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BCCDDF2ACA742900217CB2 /* Cherry_PopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cherry_PopUITests.swift; sourceTree = "<group>"; };
+		82BCCDE12ACA742900217CB2 /* Cherry_PopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cherry_PopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BCCDB82ACA742700217CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BCCDCE2ACA742900217CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BCCDD82ACA742900217CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82BCCDB22ACA742700217CB2 = {
+			isa = PBXGroup;
+			children = (
+				82BCCDBD2ACA742700217CB2 /* Cherry Pop */,
+				82BCCDD42ACA742900217CB2 /* Cherry PopTests */,
+				82BCCDDE2ACA742900217CB2 /* Cherry PopUITests */,
+				82BCCDBC2ACA742700217CB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82BCCDBC2ACA742700217CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BCCDBB2ACA742700217CB2 /* Cherry Pop.app */,
+				82BCCDD12ACA742900217CB2 /* Cherry PopTests.xctest */,
+				82BCCDDB2ACA742900217CB2 /* Cherry PopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BCCDBD2ACA742700217CB2 /* Cherry Pop */ = {
+			isa = PBXGroup;
+			children = (
+				82BCCDBE2ACA742700217CB2 /* AppDelegate.swift */,
+				82BCCDC02ACA742700217CB2 /* SceneDelegate.swift */,
+				82BCCDC22ACA742700217CB2 /* ViewController.swift */,
+				82BCCDC42ACA742700217CB2 /* Main.storyboard */,
+				82BCCDC72ACA742800217CB2 /* Assets.xcassets */,
+				82BCCDC92ACA742800217CB2 /* LaunchScreen.storyboard */,
+				82BCCDCC2ACA742800217CB2 /* Info.plist */,
+			);
+			path = "Cherry Pop";
+			sourceTree = "<group>";
+		};
+		82BCCDD42ACA742900217CB2 /* Cherry PopTests */ = {
+			isa = PBXGroup;
+			children = (
+				82BCCDD52ACA742900217CB2 /* Cherry_PopTests.swift */,
+			);
+			path = "Cherry PopTests";
+			sourceTree = "<group>";
+		};
+		82BCCDDE2ACA742900217CB2 /* Cherry PopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82BCCDDF2ACA742900217CB2 /* Cherry_PopUITests.swift */,
+				82BCCDE12ACA742900217CB2 /* Cherry_PopUITestsLaunchTests.swift */,
+			);
+			path = "Cherry PopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BCCDBA2ACA742700217CB2 /* Cherry Pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BCCDE52ACA742900217CB2 /* Build configuration list for PBXNativeTarget "Cherry Pop" */;
+			buildPhases = (
+				82BCCDB72ACA742700217CB2 /* Sources */,
+				82BCCDB82ACA742700217CB2 /* Frameworks */,
+				82BCCDB92ACA742700217CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cherry Pop";
+			productName = "Cherry Pop";
+			productReference = 82BCCDBB2ACA742700217CB2 /* Cherry Pop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82BCCDD02ACA742900217CB2 /* Cherry PopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BCCDE82ACA742900217CB2 /* Build configuration list for PBXNativeTarget "Cherry PopTests" */;
+			buildPhases = (
+				82BCCDCD2ACA742900217CB2 /* Sources */,
+				82BCCDCE2ACA742900217CB2 /* Frameworks */,
+				82BCCDCF2ACA742900217CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BCCDD32ACA742900217CB2 /* PBXTargetDependency */,
+			);
+			name = "Cherry PopTests";
+			productName = "Cherry PopTests";
+			productReference = 82BCCDD12ACA742900217CB2 /* Cherry PopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82BCCDDA2ACA742900217CB2 /* Cherry PopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BCCDEB2ACA742900217CB2 /* Build configuration list for PBXNativeTarget "Cherry PopUITests" */;
+			buildPhases = (
+				82BCCDD72ACA742900217CB2 /* Sources */,
+				82BCCDD82ACA742900217CB2 /* Frameworks */,
+				82BCCDD92ACA742900217CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BCCDDD2ACA742900217CB2 /* PBXTargetDependency */,
+			);
+			name = "Cherry PopUITests";
+			productName = "Cherry PopUITests";
+			productReference = 82BCCDDB2ACA742900217CB2 /* Cherry PopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BCCDB32ACA742700217CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					82BCCDBA2ACA742700217CB2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					82BCCDD02ACA742900217CB2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 82BCCDBA2ACA742700217CB2;
+					};
+					82BCCDDA2ACA742900217CB2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 82BCCDBA2ACA742700217CB2;
+					};
+				};
+			};
+			buildConfigurationList = 82BCCDB62ACA742700217CB2 /* Build configuration list for PBXProject "Cherry Pop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82BCCDB22ACA742700217CB2;
+			productRefGroup = 82BCCDBC2ACA742700217CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BCCDBA2ACA742700217CB2 /* Cherry Pop */,
+				82BCCDD02ACA742900217CB2 /* Cherry PopTests */,
+				82BCCDDA2ACA742900217CB2 /* Cherry PopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BCCDB92ACA742700217CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BCCDCB2ACA742800217CB2 /* LaunchScreen.storyboard in Resources */,
+				82BCCDC82ACA742800217CB2 /* Assets.xcassets in Resources */,
+				82BCCDC62ACA742700217CB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BCCDCF2ACA742900217CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BCCDD92ACA742900217CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BCCDB72ACA742700217CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BCCDC32ACA742700217CB2 /* ViewController.swift in Sources */,
+				82BCCDBF2ACA742700217CB2 /* AppDelegate.swift in Sources */,
+				82BCCDC12ACA742700217CB2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BCCDCD2ACA742900217CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BCCDD62ACA742900217CB2 /* Cherry_PopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BCCDD72ACA742900217CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BCCDE02ACA742900217CB2 /* Cherry_PopUITests.swift in Sources */,
+				82BCCDE22ACA742900217CB2 /* Cherry_PopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82BCCDD32ACA742900217CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BCCDBA2ACA742700217CB2 /* Cherry Pop */;
+			targetProxy = 82BCCDD22ACA742900217CB2 /* PBXContainerItemProxy */;
+		};
+		82BCCDDD2ACA742900217CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BCCDBA2ACA742700217CB2 /* Cherry Pop */;
+			targetProxy = 82BCCDDC2ACA742900217CB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82BCCDC42ACA742700217CB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BCCDC52ACA742700217CB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82BCCDC92ACA742800217CB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BCCDCA2ACA742800217CB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82BCCDE32ACA742900217CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82BCCDE42ACA742900217CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82BCCDE62ACA742900217CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BRSHAQZG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cherry Pop/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JJ-Grunwald.Cherry-Pop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82BCCDE72ACA742900217CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BRSHAQZG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cherry Pop/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JJ-Grunwald.Cherry-Pop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82BCCDE92ACA742900217CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BRSHAQZG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JJ-Grunwald.Cherry-PopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cherry Pop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cherry Pop";
+			};
+			name = Debug;
+		};
+		82BCCDEA2ACA742900217CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BRSHAQZG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JJ-Grunwald.Cherry-PopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cherry Pop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cherry Pop";
+			};
+			name = Release;
+		};
+		82BCCDEC2ACA742900217CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BRSHAQZG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JJ-Grunwald.Cherry-PopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cherry Pop";
+			};
+			name = Debug;
+		};
+		82BCCDED2ACA742900217CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BRSHAQZG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JJ-Grunwald.Cherry-PopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cherry Pop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BCCDB62ACA742700217CB2 /* Build configuration list for PBXProject "Cherry Pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BCCDE32ACA742900217CB2 /* Debug */,
+				82BCCDE42ACA742900217CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BCCDE52ACA742900217CB2 /* Build configuration list for PBXNativeTarget "Cherry Pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BCCDE62ACA742900217CB2 /* Debug */,
+				82BCCDE72ACA742900217CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BCCDE82ACA742900217CB2 /* Build configuration list for PBXNativeTarget "Cherry PopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BCCDE92ACA742900217CB2 /* Debug */,
+				82BCCDEA2ACA742900217CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BCCDEB2ACA742900217CB2 /* Build configuration list for PBXNativeTarget "Cherry PopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BCCDEC2ACA742900217CB2 /* Debug */,
+				82BCCDED2ACA742900217CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BCCDB32ACA742700217CB2 /* Project object */;
+}
